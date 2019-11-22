@@ -13,6 +13,7 @@ public class IndexController {
     public String index(HttpServletRequest req, HttpServletResponse response,
 			Model model) {
     	String s=req.getHeader("X-Forwarded-Host");
+    	System.out.println("host:"+s);
     	model.addAttribute("host", s);
         return "index";
     }
