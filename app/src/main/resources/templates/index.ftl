@@ -5,6 +5,7 @@
     <title>Hello Docker and Spring Boot!</title>
 </head>
 <body>
-    <h1>Hello Docker and Spring Boot!</h1>
+    <h1>Hello Docker and Spring Boot! host:${host}</h1>
+    
 </body>
 </html>
